@@ -9,7 +9,7 @@ Add Tracker URL to Magnet.
 
 ```shell
 pip install pyinstaller # If `pyinstaller` is not installed yet.
-pyinstaller -c -F main.py --distpath ./ -n add_tracker_to_magnet
+pyinstaller --optimize=2 -c -F main.py --distpath ./ -n add_tracker_to_magnet
 ```
 
 ## 使用方法  --  Usage
