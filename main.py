@@ -16,6 +16,10 @@ while True:
             urls.append(url)
     except EOFError:
         merged_megnet_link = mlg.add_tracker(original_magnet_link, *urls)
-        os.system("clear")
+        if os.name == "nt": # Windows
+            os.system("cls")
+        elif os.name == "posix": # Unix-like
+            os.system("clear")
         print(f"{'-' * 10} Magnet Link with Tracker: {'-' * 10}\n{merged_megnet_link}")
+        input('Press <Enter> to exit...')
         sys.exit(0)
