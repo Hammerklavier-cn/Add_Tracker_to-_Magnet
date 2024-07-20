@@ -32,3 +32,7 @@ python3 main.py
 - 在``Tracker Url (Press `Ctrl + D` to stop):``后输入tracker地址。注意：每个tracker占一行。可以输入空白行。
 - 回车，在空白行按`Ctrl + D`触发EOF，完成 Tracker Url 的输入。
 - `---------- Magnet Link with Tracker: ----------`之后的即为添加tracker后的magnet link。
+
+## Tracker List 获取  -- To obtain Tracker List
+
+推荐 XIU2 的 [XIU2-TrackerListCollection](https://github.com/XIU2/TrackersListCollection?tab=readme-ov-file) 项目，内有相当丰富的 Tracker 地址。也可由 [trackerslist](https://trackerslist.com/#/zh) 访问网站。
